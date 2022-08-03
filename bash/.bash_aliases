@@ -1,0 +1,50 @@
+#
+# ~/.bash_aliases
+#
+
+# Common
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ll='ls -lisah'
+alias c='clear'
+alias q='quit'
+
+# Git
+
+alias gl='git log --graph --all --decorate --oneline'
+alias glm='git log --graph --all --decorate'
+alias ga='git add'
+alias gaa='git add --all'
+alias gb='git branch'
+alias gbd='git branch --delete'
+alias gbdf='git branch --delete --force'
+alias gc='git clone'
+alias gcf='git clean -d --force'
+alias gcm='git commit -m'
+alias gcma='git commit --amend -m'
+alias gcme='git commit --allow-empty --allow-empty-message -m '''
+alias gco='git checkout'
+alias gd='git diff'
+alias gf='git fetch --tags --verbose --prune origin'
+alias gi='git init'
+alias gib='git init --bare'
+alias gmc='git merge --no-ff -m'
+alias gmf='git merge --ff-only'
+alias gms='git merge --squash'
+alias gp='git push --tags --verbose'
+alias grb='git rebase'
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+alias grbd='git rebase dev'
+alias grbi='git rebase --interactive'
+alias grbid='git rebase --interactive dev'
+alias grs='git reset'
+alias grsh='git reset --hard'
+alias gs='git status -u'
+alias gt='git tag'
+alias gtd='git tag --delete'
